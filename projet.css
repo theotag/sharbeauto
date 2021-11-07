@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 100px;
+    margin: 0;
+    padding: 0;
+}
+.top-page{
+    background: url("https://wallpaperaccess.com/full/3936113.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: purple;
+}    
+nav{
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+    align-items: space-around;
+}
+li{
+    list-style-type: none;
+    padding: 6px;
+    margin: 6px;
+    font: 500 13px "Mochiy Pop One", sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    
+}
+header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;    
+}
+nav img{
+    margin-left: 10%;
+}
+footer{
+    background: black;
+    color: white;
+}
+.idk{
+    display: flex;
+    align-items: space-around;
+}
+
+.navigation, .info, .contact {
+    margin-right:250px;
+    text-align: center;
+}
+.idk ul li{
+    text-align: center;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+} 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: #00acee;
+    min-width: 100px;
+    border-radius: 30px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 7px 10px;
+    text-align: center;
+    z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.btn{
+    display: block;
+    outline: none;
+    border: 0;
+    font-size: 16px;
+    line-height: 1;
+    border-radius: 30px;
+    background: #00acee;
+    color: #ffffff;
+    margin-right:  50px ;
+    cursor: pointer;
+    
+  }
+.btn:hover,
+.btn:focus{
+    background: cyan;
+    transition: all 2s linear;
+}
+span{
+    display: flex;
+    font-size: 150%;
+    justify-content: center;
+    text-align: center;
+}
+
+
